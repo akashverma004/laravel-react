@@ -19,18 +19,18 @@ const router = createBrowserRouter([
             },
             {
                 path: "/dashboard",
-                element: <Dashboard />    
+                element: <Dashboard />
             },
             {
                 path: "/users",
-                element: <Users />    
+                element: <Users />
             },
             {
-                path: '/users/new',
+                path: "/users/new",
                 element: <UserForm key="userCreate"/>    
             },
             {
-                path: '/users/:id',
+                path: "/users/:id",
                 element: <UserForm key="userUpdate"/>    
             },
         ]
